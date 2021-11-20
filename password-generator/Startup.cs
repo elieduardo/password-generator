@@ -41,6 +41,16 @@ namespace password_generator
             }
 
             app.UseHttpsRedirection();
+
+            // global cors policy
+            app.UseCors(x => x
+                .AllowAnyOrigin()
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .AllowCredentials());
+
+            app.UseAuthentication();
+
             app.UseMvc();
         }
     }

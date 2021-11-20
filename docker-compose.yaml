@@ -1,0 +1,12 @@
+version: "3.1"
+services:
+  back:
+    build: ./password-generator-api
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./password-generator-app/nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+  front:
+    build: ./password-generator-app
+    ports:
+      - "8080:80"

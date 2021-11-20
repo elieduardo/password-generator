@@ -1,6 +1,6 @@
 function gerarSenha(type) {
     const url = new URL(
-        "http://" + process.env.API_URL + "/api/values/" + type
+        "http://127.0.0.1:5000/api/values/" + type
     );
 
     fetch(url, {

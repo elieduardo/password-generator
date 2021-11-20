@@ -40,7 +40,10 @@ namespace password_generator
                 app.UseHsts();
             }
 
-            app.UseHttpsRedirection();
+            if (env.IsDevelopment())
+            {
+                app.UseHttpsRedirection();
+            }
 
             // global cors policy
             app.UseCors(x => x

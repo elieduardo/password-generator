@@ -1,0 +1,54 @@
+body{
+    background-color:tomato;
+}
+
+#topo {
+    position: relative;
+    margin-left: 460px;
+}
+
+
+input{
+    margin-left: 150px;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    border: thin;
+    border-style: solid;
+    border-color: grey;
+}
+
+
+table{
+    margin-left: 400px;
+    height: 300px;
+    width: 500px;
+    background-color:rgb(224, 221, 221);
+    border-radius: 10px;
+    color: rgb(71, 71, 71);
+    font-size: 14px;
+}
+
+#submit{
+    background-color: tomato;
+    color: white;
+    height: 30px;
+    margin-left: 125px;
+    margin-bottom: 10px;
+    font-size: large;
+    border: none;
+    border-radius: 5px;    
+}
+
+#submit:hover{
+    background-color: rgb(243, 123, 102);
+    color: white;
+    height: 30px;
+    margin-left: 125px;
+    margin-bottom: 10px;
+    font-size: large;
+    border: none;
+    border-radius: 5px;    
+}
+
+

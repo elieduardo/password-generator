@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<script src="http://code.jquery.com/jquery-2.2.3.min.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+<script type="text/javascript" src="script.js"></script>
+
+<body>
+    <div id="topo">
+
+        <img src="https://www.geradordesenha.com.br/images/geradordesenha.png">
+
+    </div>
+
+    <div id="tabela">
+
+        </br>
+        </br>
+        </br>
+
+        <table>
+            <tr>
+
+                <td>
+                    </br>
+                    </br>
+                    <input type="text" id="senha" size="60" max="30" class="form_text" readonly required />
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input id="submit" type="submit" position style="width: 250px" value="Gerar Senha Fácil"
+                        onclick=gerarSenha(1)>
+                    <input id="submit" type="submit" position style="width: 250px" value="Gerar Senha Média"
+                        onclick=gerarSenha(2)>
+                    <input id="submit" type="submit" position style="width: 250px" value="Gerar Senha Difícil"
+                        onclick=gerarSenha(3)>
+                    <input id="submit" type="submit" position style="width: 250px" value="Gerar Senha numérica"
+                        onclick=gerarSenha(4)>
+                </td>
+            </tr>
+
+        </table>
+    </div>
+
+</body>
+
+</html>
